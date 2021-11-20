@@ -18,7 +18,7 @@ function preview(any){
        
     }
     else{
-        var yourImg = document.getElementById('Tesla');
+        yourImg = document.getElementById('Tesla');
         yourImg.style.height = 'auto';
         yourImg.style.width = '600px';
     
@@ -27,7 +27,7 @@ function preview(any){
    
 
 } function bgcolor(clr){
-    if (clr=="red"){
+    if (clr==="red"){
         document.getElementsByClassName("App")[0].style.backgroundColor=clr;
       
         document.getElementById("logo").src="/static/media/logo_red.bc1ac6f8.svg";
@@ -57,21 +57,21 @@ function preview(any){
                 <button>Know More</button>
             </div>
         </div> 
-        <img src={tes1} id="Tesla"></img> 
+        <img src={tes1} alt="img" id="Tesla"></img> 
         <div className="imgbox">
            
                 <li>
-                <img id="tes1"src={tes1} onClick={() => preview(tes1)}></img>
+                <img id="tes1"src={tes1} alt="img"onClick={() => preview(tes1)}></img>
                 </li>
   
 
                 
                 <li>
-                <img id="tes3" src={tes3} onClick={() => { preview("/static/media/tesla3.0586e7ec.png"); bgcolor("white") }}></img>
+                <img id="tes3" src={tes3} alt="img"onClick={() => { preview("/static/media/tesla3.0586e7ec.png"); bgcolor("white") }}></img>
                 </li>
             
                 <li>
-                <img id="tes2"src={tes2} onClick={() =>{ preview("/static/media/tesla2.c2ea6cff.png"); bgcolor("red") }}></img>
+                <img id="tes2"src={tes2} alt="img"onClick={() =>{ preview("/static/media/tesla2.c2ea6cff.png"); bgcolor("red") }}></img>
                 </li>
          
           

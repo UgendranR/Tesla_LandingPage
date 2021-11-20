@@ -7,12 +7,12 @@ function Nav() {
 
         <div className="head">
         <div className="Tesla">
-            <img id="logo" src={Tesla}/></div>
+            <img id="logo" src={Tesla} alt="img" /></div>
         <nav>
-             <li className="linky"><a href="#">Home</a></li>
-             <li><a href="#" id="linky">Products</a></li>
-             <li><a href="#">What's New</a></li>
-             <li><a href="#">Contact</a></li>
+             <li className="linky"><a href="#/">Home</a></li>
+             <li><a href="#/" id="linky">Products</a></li>
+             <li><a href="#/">What's New</a></li>
+             <li><a href="#/">Contact</a></li>
                 
           
         </nav>
